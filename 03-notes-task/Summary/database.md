@@ -1,5 +1,4 @@
-uB0dFuM3vDyZ32P2
-mongodb+srv://master:uB0dFuM3vDyZ32P2@complete-backend.wf4zw9d.mongodb.net/
+
 
 **The Core CRUD Operations**
 `Create (Insert)`: Adding new records or data into the database. (SQL example: INSERT INTO)
