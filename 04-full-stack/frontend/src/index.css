@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-family: Arial, sans-serif;
+}
+
+.create-post-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.create-post-section form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-post-section form input,
+.create-post-section form textarea {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-post-section form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.feed-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.post-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.post-card h2 {
+  margin-bottom: 10px;
+}
+
+.post-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.post-card p {
+  margin-bottom: 10px;
+}
