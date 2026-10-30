@@ -11,7 +11,8 @@ In simple words, validation checks whether the input data is correct in terms of
 
 Suppose a user sends the following data:
 
-```json
+```
+json
 {
   "name": "Akshat",
   "email": "akshat@gmail.com",
